@@ -9,7 +9,7 @@
     "prestart": "run-s build",
     "start": "akashic-sandbox .",
     "test": "jest",
-    "build": "rum-s clean compile scan",
+    "build": "run-s clean compile scan",
     "clean": "rimraf ./script ",
     "compile": "tsc",
     "scan": "akashic-cli-scan asset script",
