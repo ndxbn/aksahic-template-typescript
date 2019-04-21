@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":rebaseStalePrs",
+    ":respectLatest",
+    ":prHourlyLimitNone"
+  ]
+}

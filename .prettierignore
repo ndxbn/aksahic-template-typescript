@@ -1,0 +1,16 @@
+# editor settings
+.idea/
+*.iml
+.vscode/
+
+# special setting files
+.*ignore
+.*rc
+.editorconfig
+.gitkeep
+
+# repository commons
+LICENSE
+
+# output dir
+script/
