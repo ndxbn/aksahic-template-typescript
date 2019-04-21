@@ -1,7 +1,7 @@
 {
-  "name": "typescript-game-sample",
+  "name": "akashic-template-typescript",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "",
   "main": "./script/main.js",
   "scripts": {
@@ -13,8 +13,6 @@
     "export-html": "rimraf game && akashic-cli-export-html -o game",
     "test": "jest"
   },
-  "author": "",
-  "license": "",
   "devDependencies": {
     "@akashic/akashic-cli-export-html": "~0.2.9",
     "@akashic/akashic-cli-export-zip": "~0.3.5",
