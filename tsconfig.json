@@ -17,6 +17,6 @@
   },
   "include": [
     "node_modules/@akashic/akashic-engine/lib/main.d.ts",
-    "./src/**/*.ts"
+    "./src/main.ts"
   ]
 }
