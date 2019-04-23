@@ -7,7 +7,9 @@
   "scripts": {
     "prepare": "run-s build",
     "prestart": "run-s build",
-    "start": "akashic serve",
+    "start": "run-p start:*",
+    "start:akashic-serve": "akashic serve",
+    "start:tsc-watch": "tsc -w",
     "test": "jest",
     "build": "run-s clean compile scan",
     "clean": "rimraf ./script ",

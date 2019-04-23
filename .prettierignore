@@ -3,11 +3,12 @@
 *.iml
 .vscode/
 
-# special setting files
+# dotfiles
 .*ignore
 .*rc
 .editorconfig
 .gitkeep
+.tsbuildinfo
 
 # repository commons
 LICENSE
