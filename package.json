@@ -19,7 +19,7 @@
     "fmt": "prettier --write \"**/*\""
   },
   "devDependencies": {
-    "@akashic/akashic-cli": "1.14.15",
+    "@akashic/akashic-cli": "1.14.39",
     "@akashic/akashic-engine": "2.6.3",
     "@types/jest": "26.0.8",
     "jest": "26.2.2",
